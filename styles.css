@@ -1,0 +1,128 @@
+*{
+    margin: 0px; 
+    flex-wrap: wrap;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 48px;  
+}
+#heading-left{
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+#heading-right{
+    float: right;
+    width: 90px;
+    height: 90px; 
+}
+.heading{
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+    align-content: center;
+}
+.About-me{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F3FDE8;
+}
+.about-me-circle{
+   display: flex;
+    height: 250px; width: 250px;
+    background-color: #FFBFBF; border-radius: 250px; justify-content: center;
+    text-align: center; align-content: center; flex-wrap: wrap; font-family: 'Shadows Into Light';
+    font-size: 40px; margin-bottom: 5px; margin-top: 20px;
+}
+p{
+    background-color: #F3FDE8;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 22px;
+    padding-left: 20px;
+}
+.about-div {
+    background: #F3FDE8;
+    align-items: center;
+    display: flex;
+}
+#about-text{
+    display: flex;
+    padding-left: 15px;
+}
+#about-gif{
+    height: 350px;
+    width: 300px;
+    float:right; 
+}
+.Myskills{
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    background-color: #F3FDE8;
+}
+.skills-circle{
+    display: flex; 
+    height: 250px; width: 250px; 
+    background-color: #FFBFBF; border-radius: 250px; 
+    justify-content: center; text-align: center; 
+    align-content: center; flex-wrap: wrap; font-family: 'Shadows Into Light'; 
+    font-size: 40px; margin-bottom: 5px; margin-top: 20px;
+ } 
+ .list{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; text-align: center; 
+    background-color: #F3FDE8; font-family: 'Bricolage Grotesque', sans-serif; 
+    font-size: 22px; gap: 10px; padding: 20px;
+}
+ul{
+    list-style: none;
+}
+#skillsimg{
+    height: 150px; width: 150px; 
+}
+.Myprojects{
+    display: flex; 
+    justify-content: center; text-align: center; 
+    background-color: #F3FDE8;
+}
+.projects-circle{
+    display: flex; 
+    height: 250px; width: 250px; 
+    background-color: #FFBFBF; border-radius: 250px; 
+    justify-content: center; text-align: center; align-content: center; 
+    flex-wrap: wrap; font-family: 'Shadows Into Light'; font-size: 40px;
+     margin-bottom: 5px; margin-top: 20px;
+ }
+ .project-text{
+    padding: 15px; background-color: #F3FDE8;
+ }
+.contactme{
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    background-color: #F3FDE8;
+}
+.contact-circle{
+    display: flex;
+     height: 250px; width: 250px; 
+     background-color: #FFBFBF; border-radius: 250px; 
+     justify-content: center; text-align: center; align-content: center; 
+     flex-wrap: wrap; font-family: 'Shadows Into Light'; font-size: 40px;
+      margin-bottom: 5px; margin-top: 20px;
+}
+.contact-img{
+    display: flex; 
+    gap: 15px; justify-content: center; 
+    background-color: #F3FDE8; 
+    padding-top: 15px; padding-bottom: 10px;
+}
+
+footer{
+    background-color: #A8DF8E; 
+    text-align: center;
+}
